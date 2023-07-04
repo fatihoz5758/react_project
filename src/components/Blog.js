@@ -1,19 +1,14 @@
 import React, { Component } from 'react'
-import BlogItem from './components/BlogItem'
+import BlogItem from './BlogItem'
+
 
 class Blog extends Component {
     render() {
         return (
-            <div>
-                
-                <h1>Blog</h1>
-                <h3>Test</h3>
+            <div className='blog'>
+                <h1>Blog.Js</h1>
                 <BlogItem />
-
-
             </div>
-
-
         )
     }
 }

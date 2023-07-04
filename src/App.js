@@ -1,16 +1,15 @@
 import logo from './logo.svg';
 import './style.css'
-import Blog from './Blog'
+import Blog from './components/Blog'
+import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>First App</h1>
+      <h1 className='app'>App.Js</h1>
+      <img src={logo} alt='logo' className='imgClass' />
       <Blog />
-      <Blog />
-      <Blog />
-
     </div>
   );
 }

@@ -1,0 +1,16 @@
+.blog{
+    color: red;
+    font-size: 15px;   
+    text-align: center;
+
+}
+.app{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+.imgClass{
+    width: 100px;
+    height: 100px;
+ 
+}

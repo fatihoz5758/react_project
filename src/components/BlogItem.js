@@ -2,8 +2,13 @@ import React, { Component } from 'react'
 
 class BlogItem extends Component {
   render() {
+    console.log(this.props)
     return (
-      <div>Blog Item Component</div>
+      <div className='box'>
+        <p className='pTag'>Blog Item Component</p> 
+        <br/>
+        {this.props.desc}
+      </div>
     )
   }
 }

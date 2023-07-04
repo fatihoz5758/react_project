@@ -7,6 +7,8 @@ class Blog extends Component {
         return (
             <div className='blog'>
                 <h1>Blog.Js</h1>
+                <BlogItem desc ="Blog One Desc" />
+                <BlogItem />
                 <BlogItem />
             </div>
         )

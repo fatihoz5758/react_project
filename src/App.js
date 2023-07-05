@@ -3,7 +3,6 @@ import './style.css'
 import Blog from './components/Blog'
 import './App.css';
 
-
 function App() {
   let slogan = <div> React Öğreneceğim  </div>
   let resim = <div><img src={logo} alt='logo' className='imgClass' /></div>

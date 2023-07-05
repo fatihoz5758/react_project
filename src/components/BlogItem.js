@@ -7,7 +7,10 @@ class BlogItem extends Component {
       <div className='box'>
         <p className='pTag'>Blog Item Component</p> 
         <br/>
-        {this.props.desc}
+        Desc props: {this.props.desc}<hr/>
+        Name props: {this.props.name}
+       
+
       </div>
     )
   }
